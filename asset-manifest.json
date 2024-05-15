@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ton-farm-fe/static/css/main.8ee7407b.css",
-    "main.js": "/ton-farm-fe/static/js/main.641f5628.js",
+    "main.js": "/ton-farm-fe/static/js/main.639cbbbd.js",
     "static/media/house.png": "/ton-farm-fe/static/media/house.2a42dc1f1c6808fce09f.png",
     "static/media/person.png": "/ton-farm-fe/static/media/person.2932183e69736e6dc619.png",
     "index.html": "/ton-farm-fe/index.html",
     "main.8ee7407b.css.map": "/ton-farm-fe/static/css/main.8ee7407b.css.map",
-    "main.641f5628.js.map": "/ton-farm-fe/static/js/main.641f5628.js.map"
+    "main.639cbbbd.js.map": "/ton-farm-fe/static/js/main.639cbbbd.js.map"
   },
   "entrypoints": [
     "static/css/main.8ee7407b.css",
-    "static/js/main.641f5628.js"
+    "static/js/main.639cbbbd.js"
   ]
 }
