@@ -1,19 +1,19 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import App from "./App"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HashRouter, Route, Routes } from "react-router-dom"
 import Home from "./Components/Home/Home"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
+    <HashRouter>
+      <Routes basename={process.env.PUBLIC_URL}>
         <Route path="/" Component={App}>
           <Route index Component={Home} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 )
 
